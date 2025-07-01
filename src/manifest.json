@@ -4,6 +4,10 @@
     "version": "1.0",
     "description": "shortcuts for search engine",
     "permissions": [],
+    "icons": {
+  "48": "icons/smooth.png"
+    },
+
     "content_scripts": [
       {
         "matches": ["https://www.google.com/search*"],
