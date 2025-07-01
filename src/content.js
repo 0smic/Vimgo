@@ -5,6 +5,8 @@ function getResult(){
     result = Array.from(document.querySelectorAll('a h3'))
 }
 
+getResult();
+
 result[currentIndex].style.color = "red";
 function highlight(index){
     result.forEach(element => element.style.color = "");
@@ -36,4 +38,3 @@ document.addEventListener("keydown", (e) => {
 
 })
 
-windows.addEventListener("load", getResult);
