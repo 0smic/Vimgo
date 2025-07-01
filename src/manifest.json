@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "smooth",
+    "version": "1.0",
+    "description": "shortcuts for search engine",
+    "permissions": [],
+    "content_scripts": [
+      {
+        "matches": ["https://www.google.com/search*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
